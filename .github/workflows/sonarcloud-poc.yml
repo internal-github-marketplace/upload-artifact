@@ -7,7 +7,7 @@ on:
 name: Main Workflow
 jobs:
   sonarcloud:
-    runs-on: self-hosted
+    runs-on: ondemand
     steps:
     - uses: actions/checkout@v2
       with:
